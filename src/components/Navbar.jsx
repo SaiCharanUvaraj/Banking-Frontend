@@ -171,11 +171,11 @@ const Navbar = () => {
                     </Link>
                     {transactionLists &&
                         <div className={dropdownStyleM}>
-                            <Link className={linkStyleM}>
+                            <Link to="/transaction" className={linkStyleM}>
                                 <FaExchangeAlt />
                                 <p>Send Money</p>
                             </Link>
-                            <Link className={linkStyleM}>
+                            <Link to="/history" className={linkStyleM}>
                                 <FaHistory />
                                 <p>History</p>
                             </Link>
@@ -218,10 +218,3 @@ const Navbar = () => {
     );
 };
 export default Navbar;
-
-/*
-darker: #4C585B
-lighter: #7E99A3
-more lighter: #A5BFCC
-background: #F4EDD3
-*/

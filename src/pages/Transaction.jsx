@@ -52,10 +52,6 @@ const Transaction = () => {
                 </form>
             </div>
         </div>
-        <div className='p-3 py-10 grid place-items-center'>
-            <p className='text-center font-bold text-4xl text-[#4C585B] py-10'>Need to see your Account Balance?</p>
-            <Link to="/accounts" className="rounded-xl bg-[#4C585B] scale-110 hover:scale-125 active:scale-105 p-3 text-4xl md:text-xl text-white transition-all duration-300 font-bold">View</Link>
-        </div>
         <Footer />
     </div>
   )
