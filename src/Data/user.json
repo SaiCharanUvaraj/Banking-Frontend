@@ -1,0 +1,47 @@
+{
+    "userId": "sc010304",
+    "name": {
+        "first":"Sai Charan",
+        "last":"U"
+    },
+    "email": "saicharan@example.com",
+    "phone": "+91-9876543210",
+    "dob": "01-03-2004",
+    "address": {
+        "plot":"No12",
+        "road": "Maniswar Road",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "pin": "600099"
+    },
+    "accounts":[ 
+        {
+        "no": "9876543210",
+        "branch": "Jawahar Nagar, Chennai",
+        "balance": "50000"
+        },
+        {
+        "no": "9876543210",
+        "branch": "Perambur, Chennai",
+        "balance": "500"
+        }
+    ],
+    "transactions": [
+        {
+        "id": "TXN1001",
+        "date": "2024-02-15",
+        "amount": 1500.50,
+        "type": "Debit",
+        "description": "Online Shopping - Amazon",
+        "status": "Success"
+        },
+        {
+        "id": "TXN1002",
+        "date": "2024-02-20",
+        "amount": 25000,
+        "type": "Credit",
+        "description": "Salary Credit",
+        "status": "Success"
+        }
+    ]
+}

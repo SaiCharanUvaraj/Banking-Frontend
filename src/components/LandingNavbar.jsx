@@ -37,7 +37,7 @@ const LandingNavbar = () => {
                     </Link>
                     <Link to="/newAccount" className={linkStyle}>
                         <FaUserPlus />
-                        <p>Create New Account</p>
+                        <p>Sign Up</p>
                     </Link>
                     <Link className={linkStyle}>
                         <FaInfoCircle />

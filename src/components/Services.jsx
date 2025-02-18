@@ -10,7 +10,7 @@ const Services = () => {
                 <p className='text-3xl font-bold text-center'>View Your Account</p>
                 <FaEye className='text-8xl text-[#F4EDD3]'/>
                 <p className='text-lg font-semibold text-justify'>Easily monitor your balance, transactions, and account details from anywhere with FinTrust’s user-friendly dashboard.</p>
-                <Link className={buttonStyle}>View</Link>
+                <Link to="/accounts" className={buttonStyle}>View</Link>
             </div>
             <div className='bg-[#7E99A3] text-white rounded-lg p-5 grid place-items-center gap-4 hover:scale-105 shadow-lg hover:shadow-xl transition-all duration-200'>
                 <p className='text-3xl font-bold text-center'>Apply for a New Account</p>

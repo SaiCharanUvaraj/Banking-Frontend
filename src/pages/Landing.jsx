@@ -22,7 +22,7 @@ const Landing = () => {
       </div>
       <div className='p-3 pt-10 grid place-items-center'>
         <p className='text-center font-bold text-5xl text-[#4C585B] py-10'>Already an User ?</p>
-        <button className="rounded-xl bg-[#4C585B] scale-110 hover:scale-125 active:scale-105 p-3 text-4xl md:text-xl text-white transition-all duration-300 font-bold">Sign In</button>
+        <Link to="/signin" className="rounded-xl bg-[#4C585B] scale-110 hover:scale-125 active:scale-105 p-3 text-4xl md:text-xl text-white transition-all duration-300 font-bold">Sign In</Link>
       </div>
       <div className='pt-10'>
         <Footer />

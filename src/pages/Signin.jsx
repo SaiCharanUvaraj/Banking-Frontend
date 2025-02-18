@@ -2,8 +2,7 @@ import React from 'react'
 import BankInfo from '../components/BankInfo';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FaBackward } from 'react-icons/fa6';
-import { FaArrowLeft, FaBackspace } from 'react-icons/fa';
+import { FaArrowLeft } from 'react-icons/fa';
 
 const Signin = () => {
   const [loading, setLoading] = useState(false);
@@ -34,7 +33,7 @@ const Signin = () => {
               </p>
               <div className="my-3 p-4">
                 <div className="my-4">
-                  <input type="number" name="phone" className={inputBoxStyle} placeholder='Account No' />
+                  <input type="text" name="phone" className={inputBoxStyle} placeholder='User Id' />
                 </div>
                 <div className="my-4">
                   <input type="number" name="phone" className={inputBoxStyle} placeholder='Registered Phone Number' />
@@ -68,7 +67,7 @@ const Signin = () => {
               </div>
               <div className='my-3'>
                 <p className='text-lg font-bold p-0.5'>Didn't have an account?</p>
-                <Link to="/newAccount" className="text-black hover:underline text-lg font-bold">Apply for a new Account</Link>
+                <Link to="/newAccount" className="text-black hover:underline text-lg font-bold">Sign Up</Link>
               </div>
             </center>
           </form>

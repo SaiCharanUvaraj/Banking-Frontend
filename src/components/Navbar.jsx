@@ -47,7 +47,7 @@ const Navbar = () => {
 
                 {/* Desktop Menu */}
                 <div className="hidden lg:flex space-x-10">
-                    <Link className={linkStyle}>
+                    <Link to="/home" className={linkStyle}>
                     <FaHome />
                     <p>Home</p>
                     </Link>
@@ -59,13 +59,13 @@ const Navbar = () => {
                         </Link>
                         {accountLists &&
                             <div className={dropdownStyle}>
-                                <Link className={linkStyle}> 
+                                <Link to="/accounts" className={linkStyle}> 
                                     <FaEye />
                                     <p>View</p>
                                 </Link>
-                                <Link className={linkStyle}>
+                                <Link to="/applyAccount" className={linkStyle}>
                                     <FaUserPlus />
-                                    <p>Create New</p>
+                                    <p>New Account</p>
                                 </Link>
                             </div>
                         }
@@ -114,7 +114,7 @@ const Navbar = () => {
                                     <FaInfoCircle />
                                     About Us
                                 </Link>
-                                <Link className={linkStyle}>
+                                <Link to="/" className={linkStyle}>
                                     <FaSignOutAlt />
                                     <p>Log Out</p>
                                 </Link>
@@ -140,7 +140,7 @@ const Navbar = () => {
 
             {/* Mobile Menu */}
             <div className={`lg:hidden grid gap-5 overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? 'max-h-full opacity-100 pt-10' : 'max-h-0 opacity-0'}`}>
-                <Link className={linkStyleM}>
+                <Link to="/home" className={linkStyleM}>
                     <FaHome />
                     <p>Home</p>
                 </Link>
@@ -152,13 +152,13 @@ const Navbar = () => {
                     </Link>
                     {accountLists &&
                         <div className={dropdownStyleM}>
-                            <Link className={linkStyleM}> 
+                            <Link to="/accounts"className={linkStyleM}> 
                                 <FaEye />
                                 <p>View</p>
                             </Link>
-                            <Link className={linkStyleM}>
+                            <Link to="/applyAccount" className={linkStyleM}>
                                 <FaUserPlus />
-                                <p>Create New</p>
+                                <p>New Account</p>
                             </Link>
                         </div>
                     }
@@ -206,7 +206,7 @@ const Navbar = () => {
                                 <FaInfoCircle />
                                 About Us
                             </Link>
-                            <Link className={linkStyleM}>
+                            <Link to="/" className={linkStyleM}>
                                 <FaSignOutAlt />
                                 <p>Log Out</p>
                             </Link>

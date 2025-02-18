@@ -3,8 +3,8 @@ import Navbar from '../components/Navbar'
 import BankInfo from '../components/BankInfo'
 import Footer from '../components/Footer';
 import WhyChoose from '../components/WhyChoose';
-import { MdWavingHand } from "react-icons/md";
 import Services from '../components/Services';
+import user from '../Data/user.json';
 
 const Home = () => {
   return (
@@ -13,8 +13,7 @@ const Home = () => {
       <div className='h-screen pt-14 grid place-items-center'>
         <BankInfo />
         <div className='grid place-items-center gap-3'>
-          <p className='font-bold text-4xl text-[#4C585B]'>Welcome, <strong>Sai Charan</strong></p>
-          <MdWavingHand className='text-7xl text-[#7E99A3] animate-wiggle' />
+          <p className='font-bold text-4xl text-[#4C585B]'>Welcome, <strong>{user.name.first}</strong></p>
         </div>
       </div>
       <div className='py-10'>

@@ -42,9 +42,15 @@ const NewAccount = () => {
                     <div className="my-4">
                         <input type="number" name="pan" className={inputBoxStyle} placeholder='Valid PAN Card Number' />
                     </div>
+                    <div className="my-4">
+                        <input type="password" name="pwd" className={inputBoxStyle} placeholder='Set your Password' />
+                    </div>
+                    <div className="my-4">
+                        <input type="password" name="cpwd" className={inputBoxStyle} placeholder='Confirm your Password' />
+                    </div>
                     <div className='my-6'>
                         <button className={buttonStyle} onClick={handleSubmit}>
-                            Apply Now
+                            Sign Up
                         </button>
                     </div>
                     <div className='my-3'>

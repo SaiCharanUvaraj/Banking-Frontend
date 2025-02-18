@@ -6,10 +6,6 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-12 text-center">
         <h2 className="text-2xl md:text-3xl font-bold">Ready to Experience Hassle-Free Banking?</h2>
         <p className="mt-2 text-gray-300">Join FinTrust today and take control of your financial future.</p>
-        <button className="mt-5 bg-white text-[#4C585B] px-6 py-3 rounded-lg font-bold text-lg hover:scale-110 active:scale-95 transition duration-300">
-          Join FinTrust Now
-        </button>
-
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10 text-gray-300">
           <div className="flex items-center justify-center">
             <FaMapMarkerAlt className="text-xl mr-3" />
