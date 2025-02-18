@@ -78,11 +78,11 @@ const Navbar = () => {
                         </Link>
                         {transactionLists &&
                             <div className={dropdownStyle}>
-                                <Link className={linkStyle}>
-                                <   FaExchangeAlt />
+                                <Link to="/transaction" className={linkStyle}>
+                                    <FaExchangeAlt />
                                     <p>Send Money</p>
                                 </Link>
-                                <Link className={linkStyle}>
+                                <Link to="/history" className={linkStyle}>
                                     <FaHistory />
                                     <p>History</p>
                                 </Link>

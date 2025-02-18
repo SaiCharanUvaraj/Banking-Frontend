@@ -13,7 +13,7 @@ const NewAccount = () => {
     }
     return (
         <div className="grid md:grid-cols-2 grid-cols-1 h-screen gap-5">
-            <div className='grid place-items-center'>
+            <div className='grid place-items-center pt-10'>
                 <BankInfo />
                 <Link to="/" className={buttonStyle}><FaArrowLeft /></Link>
             </div>
@@ -23,8 +23,12 @@ const NewAccount = () => {
                     <p className="bg-[#4C585B] rounded-t-xl text-white p-3 text-center font-bold text-2xl md:text-3xl shadow-lg shadow-black">
                         Sign Up
                     </p>
-                    <div className="my-2 mt-5">
-                        <input type="text" name="name" placeholder="Full Name as per your PAN Card" className={inputBoxStyle} />
+                    <div className="my-2 mt-5 flex justify-center items-center space-x-3">
+                        <input type="text" name="name" placeholder="First Name" className="rounded-lg mt-2 w-2/5 focus:scale-105 text-lg h-10 transition-all duration-300 text-center p-2 font-semibold"/>
+                        <input type="text" name="name" placeholder="Last Name" className="rounded-lg mt-2 w-2/5 focus:scale-105 text-lg h-10 transition-all duration-300 text-center p-2 font-semibold" />
+                    </div>
+                    <div className="my-4">
+                        <input type="text" name="id" className={inputBoxStyle} placeholder='Set your User Id' />
                     </div>
                     <div className="my-4 grid gap-1">
                         {!verify &&

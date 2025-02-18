@@ -7,6 +7,8 @@ import Home from './pages/Home';
 import NewAccount from './pages/NewAccount';
 import Accounts from './pages/Accounts';
 import ApplyAccount from './pages/ApplyAccount';
+import Transaction from './pages/Transaction';
+import History from './pages/History';
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
         <Route path="/applyAccount" element={<ApplyAccount />} />
         <Route path="/home" element={<Home />} />
         <Route path="/accounts" element={<Accounts />} />
+        <Route path="/transaction" element={<Transaction />} />
+        <Route path="/history" element={<History />} />
       </Routes>
     </Router>
   );

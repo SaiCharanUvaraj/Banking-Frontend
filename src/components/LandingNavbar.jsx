@@ -33,7 +33,7 @@ const LandingNavbar = () => {
                 <div className="hidden lg:flex space-x-10">
                     <Link to="/signin" className={linkStyle}>
                         <FaSignInAlt />
-                        <p>Signin</p>
+                        <p>Sign In</p>
                     </Link>
                     <Link to="/newAccount" className={linkStyle}>
                         <FaUserPlus />
@@ -68,11 +68,11 @@ const LandingNavbar = () => {
             <div className={`lg:hidden grid gap-5 overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? 'max-h-full opacity-100 pt-10' : 'max-h-0 opacity-0'}`}>
                 <Link to="/signin" className={linkStyleM}>
                     <FaSignInAlt />
-                    <p>Signin</p>
+                    <p>Sign In</p>
                 </Link>
                 <Link to="/newAccount" className={linkStyleM}>
                     <FaUserPlus />
-                    <p>Create New Account</p>
+                    <p>Sign Up</p>
                 </Link>
                 <Link className={linkStyleM}>
                     <FaInfoCircle />
@@ -87,10 +87,3 @@ const LandingNavbar = () => {
     );
 };
 export default LandingNavbar;
-
-/*
-darker: #4C585B
-lighter: #7E99A3
-more lighter: #A5BFCC
-background: #F4EDD3
-*/

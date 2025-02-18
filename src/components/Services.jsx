@@ -16,13 +16,13 @@ const Services = () => {
                 <p className='text-3xl font-bold text-center'>Apply for a New Account</p>
                 <FaUserPlus className='text-8xl text-[#F4EDD3]'/>
                 <p className='text-lg font-semibold text-justify'>Start your banking journey with FinTrust in just a few clicks. Open a secure and flexible account tailored to your needs.</p>
-                <Link to="/newAccount" className={buttonStyle}>Apply</Link>
+                <Link to="/applyAccount" className={buttonStyle}>Apply</Link>
             </div>
             <div className='bg-[#7E99A3] text-white rounded-lg p-5 grid place-items-center gap-4 hover:scale-105 shadow-lg hover:shadow-xl transition-all duration-200'>
                 <p className='text-3xl font-bold text-center'>Transfer Money</p>
                 <FaExchangeAlt className='text-8xl text-[#F4EDD3]'/>
                 <p className='text-lg font-semibold text-justify'>Send and receive money instantly with secure encryption. Enjoy seamless transactions with zero stress!</p>
-                <Link className={buttonStyle}>Transfer</Link>
+                <Link to="/transaction" className={buttonStyle}>Transfer</Link>
             </div>
         </div>
     </div>

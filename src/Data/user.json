@@ -32,7 +32,8 @@
         "date": "2024-02-15",
         "amount": 1500.50,
         "type": "Debit",
-        "description": "Online Shopping - Amazon",
+        "recepient":"1234567890",
+        "description": "Cinema fee",
         "status": "Success"
         },
         {
@@ -40,7 +41,17 @@
         "date": "2024-02-20",
         "amount": 25000,
         "type": "Credit",
+        "recepient":"1234561234",
         "description": "Salary Credit",
+        "status": "Success"
+        },
+        {
+        "id": "TXN1003",
+        "date": "2024-02-15",
+        "amount": 11500.50,
+        "type": "Debit",
+        "recepient":"1234587090",
+        "description": "College fee",
         "status": "Success"
         }
     ]
