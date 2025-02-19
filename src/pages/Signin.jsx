@@ -34,9 +34,6 @@ const Signin = () => {
               <div className="my-4">
                 <input type="text" name="phone" className={inputBoxStyle} placeholder='User Id' />
               </div>
-              <div className="my-4">
-                <input type="number" name="phone" className={inputBoxStyle} placeholder='Registered Phone Number' />
-              </div>
               {forgot && (
                 <div>
                   <input type="number" className={inputBoxStyle} placeholder='Enter the OTP sent to your number'/>

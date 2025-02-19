@@ -52,7 +52,6 @@ const Transaction = () => {
                 </form>
             </div>
         </div>
-        <Footer />
     </div>
   )
 }
