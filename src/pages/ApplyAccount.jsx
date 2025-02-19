@@ -61,16 +61,12 @@ const ApplyAccount = () => {
                         <input type="text" name="dob" onFocus={(e) => e.target.type = 'date'} onBlur={(e) => e.target.type = 'text'}  className={inputBoxStyle} placeholder='Date of Birth' />
                     </div>
                     <div className="my-4">
-                        <textarea name="pan" className="rounded-lg mt-2 w-5/6 focus:scale-105 text-lg h-30 transition-all duration-300 text-center p-2 font-semibold" placeholder='Residential Address' />
+                        <textarea name="pan" className="rounded-lg mt-2 w-5/6 focus:scale-105 text-lg h-32 transition-all duration-300 text-center p-2 font-semibold" placeholder='Residential Address' />
                     </div>
                     <div className='my-6'>
                         <button className={buttonStyle} onClick={handleSubmit}>
                             Apply Now
                         </button>
-                    </div>
-                    <div className='my-3'>
-                        <p className='text-lg font-bold p-0.5'>Already have an account?</p>
-                        <Link to="/signin" className="text-black hover:underline text-lg font-bold">Sign In</Link>
                     </div>
                     </center>
                 </form>
